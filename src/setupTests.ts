@@ -1,3 +1,12 @@
+import Enzyme from "enzyme";
+import { createSerializer } from "enzyme-to-json";
+import Adapter from "@wojtekmaj/enzyme-adapter-react-17";
+
+Enzyme.configure({ adapter: new Adapter() });
+
+//@ts-ignore
+expect.addSnapshotSerializer(createSerializer({ mode: 'deep' }));
+
 // jest-dom adds custom jest matchers for asserting on DOM nodes.
 // allows you to do things like:
 // expect(element).toHaveTextContent(/react/i)

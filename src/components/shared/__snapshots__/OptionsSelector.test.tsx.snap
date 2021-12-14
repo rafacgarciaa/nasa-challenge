@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the text "Loading..." 1`] = `
+<div
+  className="btn-toolbar mb-2 mb-md-0"
+>
+  <div
+    className="btn-group me-2"
+  >
+    <button
+      className="btn btn-sm btn-outline-secondary"
+      key="FHAZ"
+      onClick={[Function]}
+      type="button"
+    >
+      FHAZ
+    </button>
+    <button
+      className="btn btn-sm btn-outline-secondary"
+      key="RHAZ"
+      onClick={[Function]}
+      type="button"
+    >
+      RHAZ
+    </button>
+    <button
+      className="btn btn-sm btn-outline-secondary"
+      key="MAST"
+      onClick={[Function]}
+      type="button"
+    >
+      MAST
+    </button>
+    <button
+      className="btn btn-sm btn-outline-secondary active"
+      key="ALL"
+      onClick={[Function]}
+      type="button"
+    >
+      ALL
+    </button>
+  </div>
+  <div
+    className="me-2"
+  >
+    <div
+      className="btn btn-sm btn-outline-secondary"
+    >
+      Earth Date
+      <div>
+        <r
+          allowSameDay={false}
+          customTimeInput={null}
+          dateFormat="dd/MM/yyyy"
+          dateFormatCalendar="LLLL yyyy"
+          disabled={false}
+          disabledKeyboardNavigation={false}
+          dropdownMode="scroll"
+          enableTabLoop={true}
+          excludeScrollbar={true}
+          focusSelectedMonth={false}
+          monthsShown={1}
+          nextMonthAriaLabel="Next Month"
+          nextMonthButtonLabel="Next Month"
+          nextYearAriaLabel="Next Year"
+          nextYearButtonLabel="Next Year"
+          onBlur={[Function]}
+          onCalendarClose={[Function]}
+          onCalendarOpen={[Function]}
+          onChange={[Function]}
+          onClickOutside={[Function]}
+          onFocus={[Function]}
+          onInputClick={[Function]}
+          onInputError={[Function]}
+          onKeyDown={[Function]}
+          onMonthChange={[Function]}
+          onSelect={[Function]}
+          onYearChange={[Function]}
+          preventOpenOnFocus={false}
+          previousMonthAriaLabel="Previous Month"
+          previousMonthButtonLabel="Previous Month"
+          previousYearAriaLabel="Previous Year"
+          previousYearButtonLabel="Previous Year"
+          readOnly={false}
+          renderDayContents={[Function]}
+          selected={2021-12-14T03:00:00.000Z}
+          selectsDisabledDaysInRange={false}
+          shouldCloseOnSelect={true}
+          showFourColumnMonthYearPicker={false}
+          showFullMonthYearPicker={false}
+          showMonthYearPicker={false}
+          showPopperArrow={true}
+          showPreviousMonths={false}
+          showQuarterYearPicker={false}
+          showTimeInput={false}
+          showTimeSelect={false}
+          showTwoColumnMonthYearPicker={false}
+          showYearPicker={false}
+          strictParsing={false}
+          timeCaption="Time"
+          timeInputLabel="Time"
+          timeIntervals={30}
+          withPortal={false}
+          yearItemNumber={12}
+        />
+      </div>
+      <div
+        className="dropdown"
+      >
+        <div
+          aria-expanded="false"
+          className="dropdown-toggle"
+          data-bs-toggle="dropdown"
+          id="filterMenuButton"
+        >
+          <span
+            data-feather="calendar"
+          />
+        </div>
+        <ul
+          aria-labelledby="filterMenuButton"
+          className="dropdown-menu"
+        >
+          <li>
+            <button
+              className="dropdown-item active"
+              onClick={[Function]}
+              type="button"
+            >
+              By Earth Date
+            </button>
+          </li>
+          <li>
+            <button
+              className="dropdown-item"
+              onClick={[Function]}
+              type="button"
+            >
+              By Martian Sol
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
